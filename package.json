@@ -5,7 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "dev": "ts-node-dev --respawn --pretty --transpile-only src/server.ts",
-    "test": "jest --config jest.config.json"
+    "test": "jest --config jest.config.json --silent"
   },
   "repository": {
     "type": "git",
